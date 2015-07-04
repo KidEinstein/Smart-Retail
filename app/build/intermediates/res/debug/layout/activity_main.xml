@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B5E2B" >
+    
+
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:padding="10dp"
+        android:text="e-Shopper"
+        android:textColor="#B8B8B8"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    
+
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/done"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        android:text="Position your phone over the NFC Tag"
+        android:textColor="#B8B8B8"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submit"
+        android:layout_centerHorizontal="true"
+        android:background="#008080"
+        android:layout_margin="15dp"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:text="Done"
+        android:onClick="done"
+        android:textColor="#B8B8B8" />
+    
+        <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="#B8B8B8"
+        android:background="#DAA520"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_margin="15dp"
+        android:onClick="submit"
+        android:text="Submit" />
+    
+</RelativeLayout>
+<!-- From: file:/Users/anirudh/AndroidStudioProjects/iot/app/src/main/res/layout/activity_main.xml -->

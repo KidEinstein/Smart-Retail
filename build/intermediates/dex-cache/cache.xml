@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Applications/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6658c117293958a7383bcbb346a57fefebf27ee4.jar" />
+    </item>
+    <item
+        jar="/Users/anirudh/AndroidStudioProjects/iot/app/libs/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-5a5716e1ba03e78485b0bb6f2a4883eaa4ae8e90.jar" />
+    </item>
+    <item
+        jar="/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/pre-dexed/debug/classes-6ccd17fcb8331a652af6827f97ff3c424a66eed0.jar" />
+    </item>
+    <item
+        jar="/Users/anirudh/AndroidStudioProjects/iot/app/libs/ParseCrashReporting-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b2fc26f71157545cc214e36008dae494adeda93">
+        <dex dex="/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.3-f953400f55a5feef59466b832a3fd5f7f1cf6cad.jar" />
+    </item>
+    <item
+        jar="/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/pre-dexed/debug/classes-f8842dd8062f69718c3d9c1a22421cbe190451ca.jar" />
+    </item>
+    <item
+        jar="/Users/anirudh/AndroidStudioProjects/iot/app/libs/Parse-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="35921ead63f6cafd9f84ff178c60fe474c4b17a6">
+        <dex dex="/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/pre-dexed/debug/Parse-1.9.3-5dc56eaa26628f8a86394b7bc174d91a6fb8ef95.jar" />
+    </item>
+    <item
+        jar="/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-b1a7da869def21a5fc63028dccbe33b666e3fc97.jar" />
+    </item>
+    <item
+        jar="/Users/anirudh/AndroidStudioProjects/iot/app/libs/ParseFacebookUtilsV4-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e48db090422d6f3ef016f71e2f67ece319b34d2">
+        <dex dex="/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/pre-dexed/debug/ParseFacebookUtilsV4-1.9.3-19784e621aa60ed6478983af2e81fe68e8379f87.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B5E2B"
+     
+     >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B8B8B8"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:textSize="30sp"
+        android:text="Product Description" />
+
+    <TextView
+        android:id="@+id/ProductNameL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B8B8B8"
+        android:layout_below="@+id/title"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:text="Product Name : "/>
+
+    <TextView
+        android:id="@+id/ProductNameR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B8B8B8"
+        android:layout_below="@+id/ProductNameL"
+        android:textSize="15sp"
+        android:text="NULL"
+        android:layout_margin="10dp"/>
+    
+    <TextView
+        android:id="@+id/ManufactureL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B8B8B8"
+        android:layout_below="@+id/ProductNameR"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:text="Manufacturer : "/>
+
+    <TextView
+        android:id="@+id/ManufacturerR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B8B8B8"
+        android:layout_below="@+id/ManufactureL"
+        android:textSize="15sp"
+        android:text="NULL"
+        android:layout_margin="10dp"/>
+    
+    <TextView
+        android:id="@+id/PriceL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B8B8B8"
+        android:layout_below="@+id/ManufacturerR"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:text="Price : "/>
+
+    <TextView
+        android:id="@+id/PriceR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B8B8B8"
+        android:layout_below="@+id/PriceL"
+        android:textSize="15sp"
+        android:text="NULL"
+        android:layout_margin="10dp"/>
+    
+
+    <TextView
+        android:id="@+id/QuantityL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B8B8B8"
+        android:layout_below="@+id/PriceR"
+        android:textSize="15sp"
+        android:text="Quantity"
+        android:layout_margin="10dp"/>
+    
+    <EditText
+        android:id="@+id/QuantityR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B8B8B8"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/QuantityL"
+        android:inputType="number"
+        android:ems="10" >
+
+    </EditText>
+    <Button 
+        android:id="@+id/AddtoCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B8B8B8"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="Add To Cart"
+        android:layout_margin="20dp"
+        android:gravity="center"
+       android:padding="5dp"
+       android:onClick="addToCart"
+        android:background="#4682B4"
+		android:textSize="15sp"
+        />
+
+</RelativeLayout>
+<!-- From: file:/Users/anirudh/AndroidStudioProjects/iot/app/src/main/res/layout/activity_product.xml -->
