@@ -1,26 +1,27 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "22.0.1"
-
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
     defaultConfig {
         applicationId "com.example.iot"
-        minSdkVersion 9
-        targetSdkVersion 21
+        minSdkVersion 10
+        targetSdkVersion 23
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    productFlavors {
+    }
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:21.0.3'
-    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.android.support:appcompat-v7:23.1.+'
+    compile 'com.android.support:support-v4:23.1.1'
     compile files('libs/Parse-1.9.3.jar')
     compile files('libs/ParseCrashReporting-1.9.3.jar')
     compile files('libs/ParseFacebookUtilsV4-1.9.3.jar')

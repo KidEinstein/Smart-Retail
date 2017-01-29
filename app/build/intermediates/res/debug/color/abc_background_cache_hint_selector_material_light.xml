@@ -15,7 +15,6 @@
 -->
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_accelerated="false" android:color="@color/background_material_light" />
-    <item android:color="@android:color/transparent" />
+    <item android:color="@color/background_material_light" />
 </selector>
-<!-- From: file:/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_background_cache_hint_selector_material_light.xml -->
+<!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/color/abc_background_cache_hint_selector_material_light.xml --><!-- From: file:/Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color/abc_background_cache_hint_selector_material_light.xml -->

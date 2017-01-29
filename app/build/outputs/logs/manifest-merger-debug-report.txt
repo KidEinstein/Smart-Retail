@@ -1,71 +1,93 @@
 -- Merging decision tree log ---
 manifest
-ADDED from AndroidManifest.xml:2:1
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:2:1-43:12
 	package
-		ADDED from AndroidManifest.xml:3:5
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from AndroidManifest.xml:5:5
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from AndroidManifest.xml:4:5
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
-uses-sdk
-ADDED from AndroidManifest.xml:7:5
-MERGED from com.android.support:appcompat-v7:21.0.3:15:5
-MERGED from com.android.support:support-v4:21.0.3:15:5
-MERGED from com.android.support:support-v4:21.0.3:15:5
-	android:targetSdkVersion
-		ADDED from AndroidManifest.xml:9:9
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
-	android:minSdkVersion
-		ADDED from AndroidManifest.xml:8:9
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from AndroidManifest.xml:10:1
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from AndroidManifest.xml:10:18
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from AndroidManifest.xml:11:1
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from AndroidManifest.xml:11:18
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.NFC
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:9:5-62
+	android:name
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:9:22-59
+uses-feature#android.hardware.nfc
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:11:5-13:35
+	android:required
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:13:9-32
+	android:name
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:12:9-44
 application
-ADDED from AndroidManifest.xml:12:5
-MERGED from com.android.support:appcompat-v7:21.0.3:16:5
-MERGED from com.android.support:support-v4:21.0.3:16:5
-MERGED from com.android.support:support-v4:21.0.3:16:5
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:15:5-41:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from AndroidManifest.xml:15:9
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:18:9-41
 	android:allowBackup
-		ADDED from AndroidManifest.xml:13:9
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:16:9-35
 	android:icon
-		ADDED from AndroidManifest.xml:14:9
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:17:9-45
 	android:theme
-		ADDED from AndroidManifest.xml:16:9
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:19:9-40
 activity#com.example.iot.MainActivity
-ADDED from AndroidManifest.xml:17:9
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:20:9-35:20
 	android:label
-		ADDED from AndroidManifest.xml:19:13
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:22:13-45
 	android:name
-		ADDED from AndroidManifest.xml:18:13
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:21:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:20:13
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:21:17
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from AndroidManifest.xml:21:25
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:23:17
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from AndroidManifest.xml:23:27
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:26:27-74
+intent-filter#android.nfc.action.TECH_DISCOVERED
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:28:13-30:29
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:29:25-74
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:32:13-34:59
+	android:resource
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:34:17-56
+	android:name
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:33:17-66
 activity#com.example.iot.Product
-ADDED from AndroidManifest.xml:26:9
+ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:36:9-39:20
 	android:label
-		ADDED from AndroidManifest.xml:28:13
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:38:13-59
 	android:name
-		ADDED from AndroidManifest.xml:27:13
+		ADDED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml:37:13-36
+uses-sdk
+INJECTED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/anirudh/AndroidStudioProjects/iot/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anirudh/AndroidStudioProjects/iot/app/src/main/AndroidManifest.xml

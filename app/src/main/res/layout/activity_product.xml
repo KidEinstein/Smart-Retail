@@ -23,15 +23,15 @@
         android:layout_height="wrap_content"
         android:textColor="#B8B8B8"
         android:layout_below="@+id/title"
-        android:textSize="15sp"
+        android:textSize="25sp"
         android:layout_margin="10dp"
-        android:text="Product Name : "/>
+        android:text="Product Name  "/>
 
     <TextView
         android:id="@+id/ProductNameR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#B8B8B8"
+        android:textColor="#c0d6e4"
         android:layout_below="@+id/ProductNameL"
         android:textSize="15sp"
         android:text="NULL"
@@ -43,15 +43,15 @@
         android:layout_height="wrap_content"
         android:textColor="#B8B8B8"
         android:layout_below="@+id/ProductNameR"
-        android:textSize="15sp"
+        android:textSize="25sp"
         android:layout_margin="10dp"
-        android:text="Manufacturer : "/>
+        android:text="Manufacturer "/>
 
     <TextView
         android:id="@+id/ManufacturerR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#B8B8B8"
+        android:textColor="#c0d6e4"
         android:layout_below="@+id/ManufactureL"
         android:textSize="15sp"
         android:text="NULL"
@@ -63,15 +63,15 @@
         android:layout_height="wrap_content"
         android:textColor="#B8B8B8"
         android:layout_below="@+id/ManufacturerR"
-        android:textSize="15sp"
+        android:textSize="25sp"
         android:layout_margin="10dp"
-        android:text="Price : "/>
+        android:text="Price  "/>
 
     <TextView
         android:id="@+id/PriceR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#B8B8B8"
+        android:textColor="#c0d6e4"
         android:layout_below="@+id/PriceL"
         android:textSize="15sp"
         android:text="NULL"
@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:textColor="#B8B8B8"
         android:layout_below="@+id/PriceR"
-        android:textSize="15sp"
+        android:textSize="25sp"
         android:text="Quantity"
         android:layout_margin="10dp"/>
     
@@ -92,7 +92,7 @@
         android:id="@+id/QuantityR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#B8B8B8"
+        android:textColor="#c0d6e4"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/QuantityL"
         android:inputType="number"
@@ -101,7 +101,7 @@
     </EditText>
     <Button 
         android:id="@+id/AddtoCart"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#B8B8B8"
         android:layout_centerHorizontal="true"

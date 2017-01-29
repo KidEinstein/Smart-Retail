@@ -43,6 +43,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Product extends Activity {
 
@@ -97,7 +98,11 @@ public class Product extends Activity {
         quantity = w.getText().toString();
         editor.putString(value, quantity);
         editor.commit();
-        i = new Intent(this, MainActivity.class);
+        i = new Intent(getBaseContext(), MainActivity.class);
+
+        int temp = Integer.parseInt(price)*Integer.parseInt(quantity);
+        i.putExtra("priceKey", Integer.toString(temp));
+        Toast.makeText(this,"Added to Cart",Toast.LENGTH_LONG).show();
         startActivity(i);
     }
 
@@ -108,7 +113,7 @@ public class Product extends Activity {
             // TODO Auto-generated method stub
             HttpClient httpClient = new DefaultHttpClient();
 
-            HttpPost httpPost = new HttpPost("http://172.16.1.42:8000/get_product/");
+            HttpPost httpPost = new HttpPost("http://192.168.43.63:8000/get_product/");
 
             HttpResponse response;
 
